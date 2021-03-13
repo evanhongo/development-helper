@@ -1,0 +1,10 @@
+{
+  "console log": {
+    "prefix": "cl",
+    "body": "console.log($0)"
+  },
+  "import": {
+    "prefix": "im",
+    "body": "import {} from '$1'"
+  }
+}

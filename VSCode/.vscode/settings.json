@@ -1,0 +1,90 @@
+{
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tokenColorCustomizations": {
+        "comments": "#1ddd5d"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "java.semanticHighlighting.enabled": true,
+    "mdb.shell": "mongosh",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "todo-tree.tree.showScanModeButton": false,
+    "powermode.enabled": true,
+    "powermode.presets": "exploding-rift",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Shades Of Blue",
+    "workbench.preferredDarkColorTheme": "Black Italic",
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#216772",
+        "diffEditor.insertedTextBorder": "#00000000",
+        "diffEditor.removedTextBackground": "#804f27",
+        "diffEditor.removedTextBorder": "#00000000",
+        "editor.selectionBackground": "#1f6fbf",
+        "editor.selectionHighlightBackground": "#1d66bd90",
+        "terminal.background": "#000000",
+        "terminal.foreground": "#2bd378"
+    }, 
+    "todo-tree.regex.regex": "//($TAGS)",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "DONE",
+        "NOTE",
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "white",
+        "background": "green",
+        "icon": "check",
+        "rulerColour": "green",
+        "type": "tag",
+        "iconColour": "gold"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "background": "purple",
+            "icon": "bell",
+            "rulerColour": "purple",
+            "iconColour": "purple"
+        },
+        "FIXME": {
+            "background": "red",
+            "icon": "beaker",
+            "rulerColour": "red",
+            "iconColour": "red",
+        },
+        "DONE": {
+            "background": "green",
+            "icon": "issue-closed",
+            "rulerColour": "black",
+            "iconColour": "green",
+        },
+        "NOTE": {
+            "background": "orange",
+            "icon": "note",
+            "rulerColour": "orange",
+            "iconColour": "orange",
+        }
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+}
