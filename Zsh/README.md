@@ -1,8 +1,19 @@
 # Z Shell Setup
 
 ```sh
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add to path env
+# Restart terminal
+echo "export PATH=/home/linuxbrew/.linuxbrew/bin:${PATH}" >>  ~/.zshrc
+
 # Install Zsh
 sudo apt install zsh
+
+#Install zsh-syntax-highlighting
+brew install zsh-syntax-highlighting
+echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 # Install Zim (configuration framework)
  curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
@@ -25,13 +36,6 @@ p10k configure
 ```
 
 ```sh
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Add to path env
-# Restart terminal
-echo "export PATH=/home/linuxbrew/.linuxbrew/bin:${PATH}" >>  ~/.zshrc
-
 # Intall exa (advanced version of ls)
 # Restart terminal
 brew install exa
