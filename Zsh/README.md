@@ -13,10 +13,10 @@ sudo apt install zsh
 
 #Install zsh-syntax-highlighting
 brew install zsh-syntax-highlighting
-echo "source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
+echo "source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 # Install Zim (configuration framework)
- curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
 # Change default shell
 # Remember to re-login
@@ -74,9 +74,9 @@ echo "alias top=htop" >> ~/.zshrc
 ```sh
 # Configure command alias
 # git
-echo "alias glo='git log --oneline'\n\
-alias ga='git add .'\n\
-alias gb='git branch'\n\
-alias gc='git checkout'\n\
+echo "alias glo='git log --oneline'
+alias ga='git add .'
+alias gb='git branch'
+alias gc='git checkout'
 alias gm='git commit'" >> ~/.zshrc
 ```
