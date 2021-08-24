@@ -27,4 +27,8 @@ awk -F , '{x+=$2}END{print x}' test.txt
 
 # Print the set of column 1
 awk -F , '{a[$1];}END{for (i in a)print i;}' test.txt
+
+# Remove all .c files under current directory
+find . -name "*.c" -0 | xargs -0 rm -f
+fd .c -0 | xargs -0 rm -f
 ```
